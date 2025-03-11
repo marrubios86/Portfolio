@@ -5,7 +5,7 @@ Welcome to my portfolio website showcasing my data science and machine learning 
 🌐 **Live Website**: [marrubios86.github.io/Portfolio](https://marrubios86.github.io/Portfolio/)
 
 ## 🔹 About Me
-I’m a data scientist passionate about machine learning, analytics, and AI applications. This portfolio highlights some of my work, and I hope to work on more projects more complicated each time. I'm very excited to learn more about this data world, because data is the new gold. 
+I'm Mar, a Data Scientist with an economic and nutrition backgroung. I'm starting my portfolio to practice my knowledge and learn new things along the way. I'm passionate about machine learning, analytics, and AI applications. This portfolio highlights some of my work, and I hope to work on more projects more complicated each time. I'm very excited to learn more about this data world, because data is the new gold. 
 
 ## 📂 Featured Projects
 - **[OKCupid Machine Learning Project](https://github.com/marrubios86/OKCupid-Date-A-Scientist)** – Predicting drug usage based on survey data.
