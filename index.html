@@ -5,22 +5,86 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mar's Data Science Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
     
     <!-- Add Bootstrap for styling -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     
     <style>
+        .readme-content {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 20px;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+            font-size: 18px;
+            max-width: 800px;
+            margin: 20px auto;
+            text-align: center;
+            line-height: 1.6;
+        }
+
+        .skills {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            margin-top: 20px;
+        }
+        .skill {
+            background-color: #ff66b2;
+            color: white;
+            font-size: 16px;
+            font-weight: bold;
+            padding: 10px 15px;
+            margin: 5px;
+            border-radius: 20px;
+            transition: transform 0.3s ease-in-out;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+        .skill i {
+            font-size: 18px;
+        }
+        .skill:hover {
+            transform: scale(1.1);
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+        }
         body {
             font-family: Arial, sans-serif;
             margin: 40px;
             text-align: center;
+            background-color: #FFEEF0;
+            color: #333333;
         }
         h1 {
-            color: #ff6600;
+            font-size: 36px;
+            font-weight: bold;
+            color: #333333;
         }
-        img {
-            width: 100px;
+        p {
+            font-size: 18px;
+            line-height: 1.5;
+            max-width: 800px;
+            margin: auto;
+            color: #333333;
+        }
+        h2 {
+            font-size: 28px;
+            font-weight: bold;
+            margin-top: 40px;
+            color: #333333;
+        }
+        img.avatar {
+            width: 150px;
+            height: auto;
             border-radius: 50%;
+            display: block;
+            margin: 20px auto;
+            border: 3px solid #ff66b2;
+        }
+        img.avatar:hover {
+            transform: scale(1.1);
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
         }
         a {
             text-decoration: none;
@@ -31,32 +95,70 @@
             list-style-position: inside;
             padding-left: 0;
         }
+        .number {
+            display: inline-block;
+            background-color: #ff66b2;
+            color: white;
+            font-size: 18px;
+            font-weight: bold;
+            width: 30px;
+            height: 30px;
+            line-height: 30px;
+            text-align: center;
+            border-radius: 50%;
+            margin-right: 10px;
+        }
+        .project-card:hover {
+            transform: translateY(-3px);
+            transition: 0.3s;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
     </style>
 </head>
 <body>
     <div class="container text-center">
-        <h2>Mar's Data Science Portfolio</h2>
-        <p>I'm Mar, a Data Scientist with an economic and nutrition background. I'm starting my portfolio to practice my knowledge and learn new things along the way. I'm passionate about machine learning, analytics, and AI applications.</p>
-
+        <h2>About this Portfolio</h2>
+        <div class="readme-content">
+            <p>
+                👋 Hi, I'm Mar! This portfolio is a showcase of my **Data Science journey**. I have a background in **economics and nutrition**, and I’m passionate about **Machine Learning, AI, and Data Analytics**. Here, you'll find my projects, skills, and the challenges I'm working on. 
+            </p>
+            <p>
+                🌱 I’m currently learning **Deep Learning** and **Natural Language Processing**. I’m looking to collaborate on **Data Science projects** and **AI research**.
+            </p>
+        </div>    
         <!-- GitHub avatar -->
-        <img src="https://github.com/marrubios86.png" alt="GitHub Avatar">
-
+        <img src="https://github.com/marrubios86.png" alt="GitHub Avatar" class="avatar">
+        <h2>Skills</h2>
+        <div class="skills">
+            <span class="skill"><i class="fa-brands fa-python"></i> Python</span>
+            <span class="skill"><i class="fa-solid fa-brain"></i> Machine Learning</span>
+            <span class="skill"><i class="fa-solid fa-chart-line"></i> Data Visualization</span>
+            <span class="skill"><i class="fa-solid fa-database"></i> SQL</span>
+            <span class="skill"><i class="fa-solid fa-table"></i> Pandas</span>
+            <span class="skill"><i class="fa-solid fa-robot"></i> Scikit-Learn</span>
+            <span class="skill"><i class="fa-solid fa-calculator"></i> Statistics</span>
+            <span class="skill"><i class="fa-solid fa-microchip"></i> Deep Learning</span>
+        </div>
+            
         <h2>Projects</h2>
         <ul class="list-group">
             <li class="list-group-item">
-                <img src="https://img.icons8.com/color/48/000000/github.png" width="20px">
+                <span class="number">1</span>
                 <strong>OKCupid Machine Learning Project</strong> <br>
                 <em>Predicting user behavior using logistic regression & SVM.</em>
                 <a href="https://github.com/marrubios86/OKCupid-Date-A-Scientist" target="_blank">View Project</a>
             </li>
             <li class="list-group-item">
-                <img src="https://img.icons8.com/color/48/000000/github.png" width="20px">
+                <span class="number">2</span>
                 <strong>Biodiversity in National Parks Data Analysis</strong> <br>
+                <em>Identifying patterns in conservation status, species at risk, using Pandas, Matplotlib, Seaborn, NumPy</em>
                 <a href="https://github.com/marrubios86/BIODIVERSITY-STARTER" target="_blank">View Project</a>
             </li>
             <li class="list-group-item">
-                <img src="https://img.icons8.com/color/48/000000/github.png" width="20px">
+                <span class="number">3</span>
                 <strong>Life Expectancy and GDP Data Analysis</strong> <br>
+                <em>Analysing the relationship between Gross Domestic Product (GDP) and life expectancy using Pandas, Matplotlib and Seaborn</em>
                 <a href="https://github.com/marrubios86/LIFE_EXPECTANCY" target="_blank">View Project</a>
             </li>
         </ul>
